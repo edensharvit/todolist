@@ -1,5 +1,12 @@
+:root {
+  /* CSS */
+  --color-tf: hsla(139, 35%, 11%, 0.911);
+  --color-background: hsla(142, 86%, 6%, 0.904);
+  --color-todo: hsla(137, 27%, 13%, 0.87);
+}
+
 body {
-  background: #352f5b;
+  background: var(--color-background);
 }
 
 .container {
@@ -10,12 +17,12 @@ input[type='text'],
 input[type='text']:focus {
   color: #fff;
   border: none;
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--color-tf);
   max-width: 400px;
 }
 
 .todos li {
-  background: #423a6f;
+  background: var(--color-todo);
 }
 
 .delete {
