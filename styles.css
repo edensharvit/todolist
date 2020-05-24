@@ -21,3 +21,18 @@ input[type='text']:focus {
 .delete {
   cursor: pointer;
 }
+
+.filtered {
+  display: none !important;
+}
+
+.fa-trash-alt {
+  color: #fff;
+  filter: grayscale(100%) opacity(0.7);
+  transition: color 600ms ease;
+}
+
+.fa-trash-alt:hover {
+  filter: grayscale(0%) opacity(1);
+  color: #fff;
+}
